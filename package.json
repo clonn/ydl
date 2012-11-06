@@ -1,7 +1,7 @@
 {
   "name": "ydl",
   "version": "0.0.5",
-  "private": true,
+  "description": "Fetch YouTube video as file in local",
   "scripts": {
     "start": "node index.js"
   },
