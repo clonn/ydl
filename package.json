@@ -1,13 +1,25 @@
 {
   "name": "ydl",
   "version": "0.0.5",
+  "author": "Caesar Chi / clonn <clonncd@gmail.com>",
+    "contributors": [
+          { "name": "clonn", "email": "clonncd@gmail.com" }
+  ],
   "description": "Fetch YouTube video as file in local",
   "scripts": {
     "start": "node index.js"
+  },
+  "repository": "git@github.com:clonn/ydl.git",
+  "keywords": ["youtube", "scrape", "ffmpeg"],
+  "bin": { "ydl": "./bin/ydl.js" },
+  "main": "index",
+  "scripts": {
+      "prepublish" : "npm prune"
   },
   "dependencies": {
     "youtube-dl": "~1.2.7",
     "fluent-ffmpeg": "~1.3.1",
     "commander": "*"
-  }
+  },
+  "engines": { "node":">= 0.6.0" }
 }
