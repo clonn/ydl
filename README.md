@@ -20,17 +20,18 @@ Command line mode
 Use ydl cli to fetch youtube video files, please respect the COPYRIGHT first.
 default ydl will auto convert the video to mp3 files.
 
-        ydl http://www.youtube.com/watch?v=9bZkp7q19f0
+        ydl 'http://www.youtube.com/watch?v=9bZkp7q19f0'
 
 Save the origin video,
 
-        ydl --url http://www.youtube.com/watch?v=9bZkp7q19f0
+        ydl --url 'http://www.youtube.com/watch?v=9bZkp7q19f0'
 
 that will save video file to mp4 / flv file type.
 
 ###Install ydl as library
 
         npm install ydl
+
 ### ydl library usage
 
 Can check the example folder,

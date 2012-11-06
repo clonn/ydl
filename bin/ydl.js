@@ -45,7 +45,7 @@ program.parse(process.argv);
 if (program.mp3) {
   console.log('Start fetching URL...');
   console.log('[MODE] MP3 mode');
-  var env = program.url;
+  var env = program.mp3;
 
   // youtube download error happen
   ydlErrorHandler(env);
